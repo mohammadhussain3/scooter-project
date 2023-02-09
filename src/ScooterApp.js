@@ -2,7 +2,10 @@ const User = require('./User')
 const Scooter = require('./Scooter')
 
 class ScooterApp {
-  // ScooterApp code here
+  constructor(station, registeredUsers) {
+    this.station = station;
+    this.registeredUsers = registeredUsers;
+  }
 }
 
 module.exports = ScooterApp
