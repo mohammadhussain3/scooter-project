@@ -24,6 +24,16 @@ class ScooterApp {
     const loggedIn = this.registeredUsers[username].login(password)
     if (loggedIn) {
       this.registeredUsers[username]['loggedIn'] = true
+      console.log(`user has been logged in`)
+    }
+
+  }
+  logoutUser(username) {
+    if (!Object.keys(this.registeredUsers).includes(username)) throw new Error('no such user is logged in')
+
+    const loggedOut = this.registeredUsers[username].logout(username)
+    if (loggedOut) {
+      this.registeredUsers[username]['loggedIn'] = false
     }
 
   }
@@ -39,6 +49,9 @@ console.log(user2.registeredUsers['mah'])
 
 
 user.loginUser('mahbub', '1234')
+console.log(user.registeredUsers['mahbub'])
+
+user.logoutUser('mahbub')
 console.log(user.registeredUsers['mahbub'])
 
 module.exports = ScooterApp
