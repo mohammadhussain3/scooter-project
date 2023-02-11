@@ -1,10 +1,24 @@
 
 class User {
-  constructor(username, password, age, loggedIn) {
-    this.username = username;
-    this.password = password;
-    this.age = age;
-    this.loggedIn = loggedIn;
+  constructor(username, password, age) {
+
+    return {
+      'username': username,
+      'password': password,
+      'age': age,
+      'login': this.login,
+      'loggedIn': false
+    }
+  }
+
+  login(password) {
+    if (password === this.password) {
+      //Log user in
+      return true
+    }
+    else {
+      throw new Error("Incorrect password")
+    }
   }
 }
 
