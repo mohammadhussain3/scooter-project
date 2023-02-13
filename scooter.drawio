@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="jjF6-8D5hDRVsdyMYq7r" name="Page-1">
-        <mxGraphModel dx="1572" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2150" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -91,7 +91,19 @@
                 <mxCell id="50" value="loginUser(username, password) called and calls login(password) from User class" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="48">
                     <mxGeometry x="470" y="10" width="420" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="The User class returns a new User object" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="48">
+                <mxCell id="51" value="The User class login methods returns trueif logged in" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="48">
+                    <mxGeometry x="480" y="70" width="440" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-650" y="-280" width="1260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=#f40606;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="56">
+                    <mxGeometry width="1260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="logoutUser(username) called and calls logout(username) from User class" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="56">
+                    <mxGeometry x="470" y="10" width="420" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="The User class logout methods returns trueif logged out" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;strokeWidth=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="56">
                     <mxGeometry x="480" y="70" width="440" height="30" as="geometry"/>
                 </mxCell>
             </root>
